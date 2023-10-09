@@ -1,0 +1,39 @@
+
+.centrar-imagen {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.diseño-boton {
+    
+    padding: 10px 20px;
+    background-color: rgb(21,76,121); /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 25px 0 25px 0; /* Configuración de las esquinas */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+
+.centrar-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el contenido se ajuste al alto de la ventana */
+}
+
+
+

@@ -1,0 +1,58 @@
+.diseño-boton {
+    padding: 10px 20px;
+    background-color: rgb(21,76,121); /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 0 0 0 25px; /* Configuración de las esquinas */
+    cursor: pointer;
+    width: 200px; /* Ancho del botón en píxeles */
+    height: 40px; /* Altura del botón en píxeles */
+    text-decoration: none;
+}
+
+.diseño-imagen{
+    float: right;
+}
+
+
+.texto-derecha{
+    text-align: right;
+}
+
+.texto-izquierda{
+    text-align: left;
+}
+
+@media (max-width: 770px) {
+    /* .col-xl-5, .col-xl-6 {
+        width: 100%;
+        text-align: center;
+    } */
+
+    .diseño-boton {
+        width: 100%; /* Ancho del botón al 100% para ocupar todo el ancho disponible */
+        border-radius: 25px; /* Borde redondeado en pantallas pequeñas */
+        margin-bottom: 10px; /* Espacio entre los botones en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 580px) {
+    .col-xl-5, .col-xl-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+        .diseño-boton {
+        width: 100%; /* Ancho del botón al 100% para ocupar todo el ancho disponible */
+        border-radius: 25px; /* Borde redondeado en pantallas pequeñas */
+        margin-bottom: 10px; /* Espacio entre los botones en pantallas pequeñas */
+    }
+
+    .texto-centro{
+        text-align: center;
+
+    }
+    .diseño-imagen{
+        margin-right: 200px;
+    }
+}
